@@ -25,7 +25,6 @@ html,body{
     align-items:center;
     flex-direction:column;
     padding:30px;
-    background-color:red;
 }
 
 #first{
@@ -58,9 +57,79 @@ html,body{
     color:#1c1c1c;
 }
 
-#h3_1, #h3_2{
+#sec_h3_1,#sec_h3_2{
     text-align:center;
     width:75%;
     background-color:white;
     padding:10px;
+}
+
+#third{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    flex-direction:column;
+    width:95%;
+    background-color:lightgreen;
+    padding:20px;
+    color:#1c1c1c;
+    padding-top:50px;
+    padding-bottom:30px;
+
+}
+
+#h3_1, #h3_2,#h3_3,#h3_4{
+    text-align:center;
+    width:65%;
+    background-color:white;
+    padding:10px;
+}
+
+#fourth{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    flex-direction:column;
+    width:95%;
+    background-color:rgb(232, 116, 219);
+    padding:20px;
+    color:#1c1c1c;
+    padding-top:50px;
+    padding-bottom:30px;    
+}
+
+#h3_5,#h3_6,#h3_7{
+    text-align:center;
+    width:75%;
+    background-color:white;
+    padding:10px;
+}
+
+#fifth{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    flex-direction:column;
+    width:95%;
+    background-color:rgb(31, 184, 141);
+    padding:20px;
+    color:#1c1c1c;
+    padding-top:50px;
+    padding-bottom:30px;
+}
+
+#h3_8,#h3_9,#h3_10{
+    text-align:center;
+    width:65%;
+    background-color:white;
+    padding:10px;
+}
+
+#footer{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100px;
+    background-color:#1c1c1c;
+    color:white;
 }
